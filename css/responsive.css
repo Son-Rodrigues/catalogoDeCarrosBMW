@@ -1,8 +1,12 @@
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
+
+    .catalogo {
+        margin: 0 auto;
+    }
 
     section .cards-item {
-        height: 600px;
-        width: 400px;
+        height: 450px;
+        width: 250px;
         margin: 0 auto;
     }
 
@@ -38,10 +42,14 @@
         padding: 20px 20px 20px 20px;
         text-align: center;
     }
-
 }
 
-@media (max-width: 600px) {
+@media (max-width: 589px) {
+
+    body {
+        width: auto;
+        height: auto;
+    }
 
     .navbar ul li {
         opacity: 0;
@@ -76,8 +84,8 @@
     }
 
     section .cards-item {
-        width: 150px;
-        height: 320px;
+        width: 200px;
+        height: 420px;
     }
 
     .btn3 {
