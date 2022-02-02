@@ -22,7 +22,7 @@ header {
 
 .navheader {
     max-width: 1000px;
-    min-width: 300px;
+    min-width: 200px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -88,7 +88,7 @@ nav ul li a:hover {
 
 .block {
     max-width: 1000px;
-    min-width: 300px;
+    min-width: 200px;
     height: 350px;
     border-radius: 8px;
     background: #00000070;
@@ -154,6 +154,7 @@ nav ul li a:hover {
 
 .filtro {
     max-width: 1000px;
+    min-width: 200px;
     height: 150px;
     background-color: white;
     border-radius: 8px;
@@ -165,8 +166,8 @@ nav ul li a:hover {
 }
 
 .buscar {
-    width: 500px;
-    min-width: 300px;
+    width: 300px;
+    min-width: 100px;
     height: 50px;
     border-radius: 4px 0px 0px 4px;
     border: 1px #00000080 solid;
@@ -421,6 +422,7 @@ footer .redes-sociais {
 }
 
 .end {
+    min-width: 200px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

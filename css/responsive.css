@@ -1,4 +1,4 @@
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 
     section .cards-item {
         height: 600px;
@@ -41,19 +41,18 @@
 
 }
 
-@media (max-width: 576px) {
+@media (max-width: 600px) {
 
     .navbar ul li {
         opacity: 0;
         width: 50px;
     }
 
-    .block {
-        height: 300px;
-    }
 
     .catalogo {
-        max-width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .titulo-catalogo {
@@ -65,10 +64,10 @@
     }
 
     .filtro {
-        width: 200px;
+        width: 100px;
         display: flex;
-        flex-direction: column;
-        margin: 20px 20px 20px 40px;
+        flex-direction: row;
+        margin: auto;
     }
     
     section .cards {
@@ -102,12 +101,15 @@
     .negocios-card {
         display: flex;
         flex-direction: column;
-        margin: 0px 30px 20px 30px;
+        align-items: center;
+        margin: 0 auto;
     }
 
     .negocios2 {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         padding-top: 10px;
         padding-bottom: 50px;
         margin-left: 20px;
@@ -117,7 +119,8 @@
     .cards-negocios2 {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        text-align: center;
+        justify-content: space-between;
         height: 320px;
         width: 280px;
         margin: 0 auto;
@@ -125,6 +128,11 @@
         padding: 20px 20px 20px 20px;
         text-align: center;
         transition: all 0.2s ease-in-out;
+    }
+
+    .contatos {
+        display: flex;
+        flex-direction: column;
     }
 
     footer {
