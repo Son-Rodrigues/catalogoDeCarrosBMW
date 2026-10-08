@@ -99,8 +99,8 @@ catalogoDeCarrosBMW/
 │
 ├── index.html
 ├── css/
-├── js/
-├── images/
+├── script/
+├── img/
 └── README.md
 ```
 
